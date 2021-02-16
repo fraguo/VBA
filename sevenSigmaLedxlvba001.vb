@@ -5,7 +5,7 @@
 Option Explicit             'force explicit declaration of all variables
 Dim objSheet As Worksheet   'declare a Worksheet object
 Dim ledRng As Range         'declare a Range object
-Dim arrNumbers As Variant   'delacre a variant or array
+Dim arrNumbers As Variant   'declare a variant or array
 
 'Import and Declare Sleep function from kernel32.dll library
 #If VBA7 Then ' Excel 2010 or later
